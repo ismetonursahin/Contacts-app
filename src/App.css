@@ -1,0 +1,54 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#container {
+  width: 400px;
+  padding: 20px;
+  background-color: aliceblue;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.list {
+  margin: 15px 0px;
+}
+
+.list > li {
+  background-color: antiquewhite;
+  padding: 5px;
+  margin: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.btn > button {
+  padding: 5px 18px;
+  background-color: rgb(57, 183, 29);
+  color: rgb(249, 249, 249);
+  border-radius: 5px;
+  border: 1px;
+  cursor: pointer;
+}
